@@ -1,0 +1,26 @@
+{
+    "name": "docs",
+    "version": "2.0.0",
+    "description": "manual for MaaFramework",
+    "main": "index.js",
+    "type": "module",
+    "repository": "https://github.com/MaaXYZ/MaaFramework",
+    "author": "bakashigure <me@shigure.fun>",
+    "license": "AGPL-3.0",
+    "private": true,
+    "devDependencies": {
+        "@vuepress/bundler-vite": "^2.0.0-rc.20",
+        "@vuepress/plugin-docsearch": "^2.0.0-rc.80",
+        "markdown-it": "^14.1.0",
+        "markdown-it-anchor": "^9.2.0",
+        "sass-embedded": "^1.86.3",
+        "vue": "^3.5.13",
+        "vuepress": "^2.0.0-rc.20",
+        "vuepress-theme-hope": "^2.0.0-rc.78"
+    },
+    "scripts": {
+        "dev": "vuepress dev .",
+        "build": "vuepress build .",
+        "clean": "vuepress dev . --clean-cache"
+    }
+}
