@@ -426,6 +426,24 @@ export const apps = [
     stack: [Stack.Pipeline, Stack.Python],
     link: "https://github.com/1bananachicken/MaaNTE",
   },
+  {
+    name: "MALW",
+    desc: "东方归言录小助手。图像技术 + 模拟控制，解放双手！由 MaaFramework 强力驱动！",
+    enDesc:
+      "Touhou LostWord Assistant. Image recognition + simulation control to free your hands! Powered by MaaFramework!",
+    logo: Logos.MALostWord,
+    stack: [Stack.Python],
+    link: "https://github.com/lisadnsess/MALostWord",
+  },
+  {
+    name: "AUTO-MAS",
+    desc: "多脚本多配置统一管理与自动化工具，你的脚本管家。内置 MaaFramework 组件，拓展脚本能力边界！",
+    enDesc:
+      "A unified management and automation tool for multiple configurations—your script butler. Integrated with MaaFramework components to expand the boundaries of scripting capabilities!",
+    logo: Logos.AUTOMAS,
+    stack: [Stack.Python],
+    link: "https://github.com/AUTO-MAS-Project/AUTO-MAS",
+  },
 ];
 
 export const projects = [...uis, ...tools, ...apps];

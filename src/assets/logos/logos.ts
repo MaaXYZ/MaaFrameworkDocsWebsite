@@ -33,6 +33,8 @@ const Logos = {
   MaaFgo: () => import("./maafgo.png"),
   MaaFwCLI: () => import("./maafw-cli.png"),
   MaaNTE: () => import("./MaaNTE.png"),
+  MALostWord: () => import("./MALostWord.png"),
+  AUTOMAS: () => import("./AUTO-MAS.ico"),
 };
 
 export default Logos;
