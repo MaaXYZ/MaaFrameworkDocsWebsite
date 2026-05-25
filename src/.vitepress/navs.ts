@@ -20,6 +20,10 @@ export const zhNav = [
     text: "问 AI 🤖",
     link: "https://deepwiki.com/MaaXYZ/MaaFramework",
   },
+  {
+    text: "MaaHub",
+    link: "https://hub.maafw.com/",
+  },
 ];
 
 export const enNav = [
@@ -46,5 +50,9 @@ export const enNav = [
   {
     text: "Ask AI 🤖",
     link: "https://deepwiki.com/MaaXYZ/MaaFramework",
+  },
+  {
+    text: "MaaHub",
+    link: "https://hub.maafw.com/",
   },
 ];

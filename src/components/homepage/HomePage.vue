@@ -70,6 +70,8 @@
                         " class="nav-link">{{ lang === "zh" ? "社区" : "Community" }}</a>
                     <a href="https://deepwiki.com/MaaXYZ/MaaFramework" target="_blank" rel="noopener noreferrer"
                         class="nav-link ai-link">{{ lang === "zh" ? "问 AI" : "Ask AI" }}</a>
+                    <a href="https://hub.maafw.com/" target="_blank" rel="noopener noreferrer"
+                        class="nav-link">MaaHub</a>
                     <a href="https://github.com/MaaXYZ/MaaFramework" target="_blank" rel="noopener noreferrer"
                         class="nav-link">GitHub</a>
                 </div>
@@ -115,8 +117,13 @@
                         <span class="link-icon">🤖</span>
                         <span class="link-text">{{ lang === "zh" ? "问 AI" : "Ask AI" }}</span>
                     </a>
-                    <a href="https://github.com/MaaXYZ/MaaFramework" target="_blank" rel="noopener noreferrer"
+                    <a href="https://hub.maafw.com/" target="_blank" rel="noopener noreferrer"
                         class="mobile-nav-link" @click="closeMobileMenu" :style="{ '--delay': '0.25s' }">
+                        <span class="link-icon">🌐</span>
+                        <span class="link-text">MaaHub</span>
+                    </a>
+                    <a href="https://github.com/MaaXYZ/MaaFramework" target="_blank" rel="noopener noreferrer"
+                        class="mobile-nav-link" @click="closeMobileMenu" :style="{ '--delay': '0.3s' }">
                         <span class="link-icon">⭐</span>
                         <span class="link-text">GitHub</span>
                     </a>
