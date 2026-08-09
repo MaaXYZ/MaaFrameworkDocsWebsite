@@ -144,6 +144,42 @@ export const tools = [
     stack: [Stack.Pipeline],
     link: "https://github.com/Kutius/maaframework-skills",
   },
+  {
+    name: "MaaOWM",
+    desc: "MaaFramework 多资源包开发工具。挂载: base+mod 合并成全字段工作区; 卸载: diff 出最小化 mod 增量。",
+    enDesc:
+      "A multi-resource-package development tool for MaaFramework. Mount base and mod packages into a complete workspace, then unmount them into a minimal mod diff.",
+    logo: Logos.MaaFW,
+    stack: [Stack.Python],
+    link: "https://github.com/sunyink/MaaOWM",
+  },
+  {
+    name: "create-maa-project",
+    desc: "MaaFW 项目脚手架 CLI & MCP Server，交互式创建与增量维护 Pipeline / Agent 项目",
+    enDesc:
+      "A MaaFW project scaffolding CLI and MCP server for interactively creating and incrementally maintaining Pipeline and Agent projects.",
+    logo: Logos.MaaFW,
+    stack: [Stack.TS],
+    link: "https://github.com/Windsland52/create-maa-project",
+  },
+  {
+    name: "MaaEvidenceKit",
+    desc: "为 AI Agent 提取 MaaFramework 日志与项目配置中的确定性证据，支持运行时与静态分析、源码定位及任务流程关联",
+    enDesc:
+      "Extracts deterministic evidence from MaaFramework logs and project configurations for AI agents, with runtime and static analysis, source lookup, and task-flow correlation.",
+    logo: Logos.MaaFW,
+    stack: [Stack.TS],
+    link: "https://github.com/Windsland52/MaaEvidenceKit",
+  },
+  {
+    name: "Everything-Maa",
+    desc: "面向 AI 辅助开发的 MaaFramework 工具集，提供可复用 Skills、版本化 MCP 配置与 CLI 安装器，覆盖项目创建、Pipeline 编写、测试和分析",
+    enDesc:
+      "A MaaFramework toolkit for AI-assisted development, providing reusable skills, versioned MCP configurations, and a CLI installer for project creation, Pipeline authoring, testing, and analysis.",
+    logo: Logos.MaaFW,
+    stack: [],
+    link: "https://github.com/KhazixW2/Everything-Maa",
+  },
 ];
 
 export const apps = [
@@ -443,6 +479,49 @@ export const apps = [
     logo: Logos.AUTOMAS,
     stack: [Stack.Python],
     link: "https://github.com/AUTO-MAS-Project/AUTO-MAS",
+  },
+  {
+    name: "MR3A",
+    desc: "忍者必须死3 小助手。图像技术 + 模拟控制，解放双手！由 MaaFramework 强力驱动！",
+    enDesc:
+      "A Ninja Must Die 3 assistant. Image recognition and simulated control free your hands. Powered by MaaFramework!",
+    logo: Logos.MR3A,
+    stack: [Stack.Pipeline, Stack.Python],
+    link: "https://github.com/originalsage/MR3A",
+  },
+  {
+    name: "Maa_Kes",
+    desc: "卡厄思梦境小助手。基于 MaaFramework 开发。使用图像识别+模拟控制技术，PC 端与模拟器端同步支持，解放双手！由 MaaFramework 强力驱动！",
+    enDesc:
+      "A Chaos Zero Nightmare assistant built with MaaFramework. Image recognition and simulated control support both PC and emulator clients. Powered by MaaFramework!",
+    logo: Logos.MaaKes,
+    stack: [Stack.Pipeline, Stack.Python],
+    link: "https://github.com/miaojiuqing/Maa_Kes",
+  },
+  {
+    name: "MAK",
+    desc: "《雪松》小助手！由 MaaFramework 强力驱动！",
+    enDesc: "A Kedr assistant powered by MaaFramework!",
+    logo: Logos.MaaFW,
+    stack: [Stack.Pipeline, Stack.Python],
+    link: "https://github.com/Hollow-YK/MaaAssistantKedrgame",
+  },
+  {
+    name: "MAH",
+    desc: "东京放课后召唤师小助手。由 MaaFramework 强力驱动！",
+    enDesc: "A Tokyo Afterschool Summoners assistant powered by MaaFramework!",
+    logo: Logos.MAH,
+    stack: [Stack.Pipeline, Stack.Python],
+    link: "https://github.com/Quartewe/MAH",
+  },
+  {
+    name: "MATR",
+    desc: "刀剑乱舞小助手。图像技术 + 模拟控制，解放双手！由 MaaFramework 强力驱动！",
+    enDesc:
+      "A Touken Ranbu assistant. Image recognition and simulated control free your hands. Powered by MaaFramework!",
+    logo: Logos.MATR,
+    stack: [Stack.Pipeline],
+    link: "https://github.com/NotZoruak/MATR",
   },
 ];
 

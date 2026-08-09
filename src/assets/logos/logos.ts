@@ -35,6 +35,10 @@ const Logos = {
   MaaNTE: () => import("./MaaNTE.png"),
   MALostWord: () => import("./MALostWord.png"),
   AUTOMAS: () => import("./AUTO-MAS.ico"),
+  MR3A: () => import("./mr3a.png"),
+  MaaKes: () => import("./maa_kes.png"),
+  MAH: () => import("./mah.png"),
+  MATR: () => import("./matr.png"),
 };
 
 export default Logos;
